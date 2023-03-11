@@ -11,6 +11,10 @@ public class A {
 		a.add(22);
 		a.add(12);
 		
-		System.out.println(a);
+		/* System.out.println(a); */
+		
+		for (Integer x:a) {
+			System.out.println(x);
+		}
 	}
 }
